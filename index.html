@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arushi's Portfolio</title>
+    <link rel="Stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/e9a74b297b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Arushi_tag.png" class="logo"/>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Machine Learning Enthusiast</p>
+                <h1>Hi, I'm <span>Arushi.</span></h1>
+            </div>
+        </div>
+   </div> 
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./Arushi_portfolio_photo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A passionate student with deep interest in Machine Learning,Data Science, Computer Vision and Natural Language Processing,I am committed to continuous growth and exploration within these exciting fields. The prospect of transforming abstract concepts into tangible, functional models fills me with excitement and drives my journey of exploration and learning.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Machine Learning</span><br>Developing models, practicing algorithms and exploring Computer vision and Natural Language Processing</li>
+                        <li><span>Data Science</span><br>Pandas, Matplotlib, Data Exploration, Data Analysis</li>
+                        <li><span>Web Development</span><br>Website Development</li>
+                        <li><span>Java</span><br>Object Oriented Programming, Data Structures and Algorithms</li>
+                        <li><span>SQL</span><br>DataBase Management System</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Summer Intern</span><br>AR VR Internship</li>
+                        <li><span>Taarangana</span><br>Head Public Coordinator</li>
+                        <li><span>Taarangana</span><br>Public Coordinator</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Indira Gandhi Delhi Technical University for Women</span><br>B.Tech in Artificial Intelligence ans Machine Learning (2022-2026) - 8.71 cgpa </li>
+                        <li><span>St. Francis de Sales School</span><br>Class XII (2021-2022) - 85.8% </li>
+                        <li><span>St. Francis de Sales School</span><br>Class X (2019-2020) - 86.2% </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!------------My work------>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./Heart.jpg" alt="" />
+                <div class="layer">
+                    <h3>Heart Disease Prediction Model</h3>
+                    <p>This model uses Linear Regression technique to predict heart diseases in patients.</p>
+                    <a href="https://github.com/Arushi-12/Heart-disease-prediction"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Swiggy_Zomato.png" alt="" />
+                <div class="layer">
+                    <h3>Tweet Sentiment Analysis</h3>
+                    <p>Used R and various ML techniques such as NLP, Python techniques for sentiment scoring and building a recommendation system.</p>
+                    <a href="https://github.com/Arushi-12/Swiggy_Zomato_Tweets_Sentiment_Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Loan.png" alt="" />
+                <div class="layer">
+                    <h3>Loan Credibility Predictor</h3>
+                    <p>Built a system for assessing creditworthiness for individuals lacking prior loan history so as to provide everyone with a fair opportunity to establish credit.</p>
+                    <a href="https://github.com/Arushi-12/Loan_Credibility_Predictor"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Arushi-12" class="btn">See More</a>
+    </div>
+</div>
+   <!----------contact-------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>arushi10784@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 7827862322</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Arushi-12"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/Arushi_Arora_12?t=d3LkuV6woXoM2kkO2q0jew&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/arushi-arora-2aa95b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Arushi. Made with <i class="fa-solid fa-heart"></i> by Arushi</p>
+    </div>
+   </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
